@@ -1,0 +1,116 @@
+.cartao-pokemon {
+    display: none;
+    box-shadow: rgba(50, 50, 93, 0.35) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 15px;
+}
+
+.cartao-pokemon .cartao-topo {
+    padding: 30px 40px 0;
+}
+
+.cartao-pokemon .nome {
+    margin-bottom: 5px;
+}
+
+.cartao-pokemon .tipo {
+    font-size: 20px;
+    background-color: #FFFFFF; 
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 3px 10px;
+    box-shadow: rgba(50, 50, 93, 0.35) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.cartao-pokemon .detalhes {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-pokemon .cartao-imagem {
+    width: 350px;
+    height: 350px;
+}
+
+.cartao-pokemon img {
+    max-height: 100%;
+
+}
+
+.cartao-pokemon .cartao-informacoes {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.cartao-pokemon .cartao-informacoes h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 2.4px solid #6B727A;
+}
+
+.cartao-pokemon .cartao-informacoes .status {
+    padding: 0 10px;
+    width: 180px;
+}
+
+.cartao-pokemon .cartao-informacoes .habilidades ul li, .cartao-pokemon .cartao-informacoes .status ul li {
+    border-bottom: 1.5px solid #C3C4C5;
+    padding: 0 0 2px;
+    margin-bottom: 2px;
+    font-size: 25px;
+}
+
+.cartao-pokemon.aberto {
+    display: block;
+}
+
+.tipo-grama {
+    background-color: #49D0B0;
+}
+
+.tipo-eletrico {
+    background-color: #e6b71c;
+}
+
+.tipo-fogo {
+    background-color: #d18034;
+}
+
+.tipo-agua {
+    background-color: #76BEFE;
+}
+
+.tipo-grama2 {
+    background-color: #36df90;
+}
+
+.tipo-fogo2 {
+    background-color: #f19035;
+}
+
+
+.tipo-agua2 {
+    background-color: #5ea6e6;
+}
+
+.tipo-fantasma {
+    background-color: #9b49aa;
+}
+
+.tipo-voador {
+    background-color: #b070bb;
+}
+
+.tipo-agua3 {
+    background-color: #76BEFE;
+}
+
+.tipo-eletric {
+    background-color: #E6B71C;
+}
